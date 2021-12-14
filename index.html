@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Shivesh Tiwari</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="nav">
+            <div class="left-side-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>THESHIVESH</h1>
+                    </a>
+                </div>
+
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <a href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills">
+                                Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main-div" id="mainDiv">
+        <div class="msg1">
+            <h1>Hello</h1>
+            <p>I can create front-end <font color="purple">Web Designs</font> & backend structure...</p>
+        </div>
+        <div class="heroimg">
+            <img src="images/mobile-devices-lp-tb.png">
+            <div class="phone">
+                <img src="images/mobile-devices-ph.png">
+            </div>
+        </div>
+        <button id="contact_btn" onclick="location.href='index.html#contact'">contact</button>
+    </div>
+    <button class="circle circle1 circle-active" id="circle1" onclick="changeBg1()"></button>
+    <button class="circle circle2" id="circle2" onclick="changeBg2()"></button>
+    <button class="circle circle3" id="circle3" onclick="changeBg3()"></button>
+    <section id="about">
+        <div class="aboutme">
+            <h1>About Me</h1>
+            <p>I started to code when I was 11 when I learnt Visual Basic. I was very enthusiastic to build things.
+                I was always very excited to make something at that time. Then, I continued my young excitement to build things in 2019, when I started learning about web development. I learnt html, css and php. then, I worked on my javascript and learnt react js. Right now, i am fluent with languages such as python, php and javascript.
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skill-sect">
+            <div class="row">
+                <div class="column">
+                    <img src="images/python.png">
+                    <img src="images/react.png">
+                    <img src="images/html-css-js.jpg">
+                </div>
+            </div>
+            <button id="contact_btn" onclick="location.href='index.html#contact'">contact</button>
+        </div>
+    </section>
+    <section id="contact">
+        <form action="POST">
+            <div class="form">
+                <p>Name</p>
+                <input type="text">
+                <p>Email</p>
+                <input type="email" name="email" id="email">
+                <p>Message</p>
+                <textarea name="text_area" id="text_area" cols="50" rows="10"></textarea>
+            </div>
+            <input type="submit" value="SUBMIT" id="sub_btn">
+        </form>
+    </section>
+    <section id="footer">
+        <footer>
+            <h3>THESHIVESH</h3>
+            <div class="links">
+                <div class="web_links">
+                    <h4>Website Links</h4>
+                    <a href="https://mrdevknown.blogspot.com/">Mrdevknown blog</a>
+                    <a href="https://theshiveshnetwork.github.io/TextUtyls/">TextUtyls</a>
+                </div>
+                <div class="other_links">
+                    <h4>Other Links</h4>
+                    <a href="https://theshiveshnetwork.github.io/">Github</a>
+                </div>
+                <div class="internal_links">
+                    <h4>Internal Links</h4>
+                    <a href="#about">About Me</a>
+                    <a href="#skills">My Skills</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <p>
+                All Rights Reserved
+            </p>
+        </footer>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
