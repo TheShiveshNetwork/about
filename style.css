@@ -6,13 +6,16 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     --theme: orange;
+    background: rgb(255, 255, 123) !important;
 }
 .navbar {
     background: var(--theme);
 }
-section {
+#main {
     height: 100vh;
     width: 100%;
+}
+section {
     background: rgb(255, 255, 123);
 }
 .top-main {
@@ -58,7 +61,7 @@ section {
         margin: 0 12rem 0 12rem;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .button .button1 {
         visibility: hidden;
         position: absolute;
